@@ -1,0 +1,36 @@
+:root {
+    --base-font-size: calc(1vw);
+  
+    --primary-brand-color: rgb(241, 76, 66);
+    --secondary-brand-color: rgba(26, 118, 199, 0.18);
+  
+    --brand-logo-font-family: 'Montserrat', sans-serif;
+    --brand-logo-font-weight: 900;
+    --brand-font-family: 'Arimo', sans-serif;
+    --brand-font-weight: 400;
+    --primary-text-color: rgb(0, 0, 0);
+    --primary-text-color-on-hover: var(--brand-color-1);
+    --secondary-text-color: rgb(255, 255, 255);
+    --secondary-text-color-on-hover: rgb(2, 208, 249);
+    --header-background-color: var(--brand-color-1);
+    --header-foreground-color: var(--secondary-text-color);
+    --app-title-font-size: 1.7rem;
+    --app-navigation-font-size: 1rem;
+    --large-font-size: 1rem;
+    --body-font-size: 0.9rem;
+    --small-font-size: 0.7rem;
+    --small-font-color: rgb(120, 120, 120);
+    --drop-zone-font-color: rgb(120, 120, 120);
+    --notification-z-index: 900;
+    --topmost-z-index: 2000;
+    --on-top-of-map-z-index: 1000;
+    --data-explorer-left-pane-default-width: 17%;
+    --data-explorer-right-pane-default-width: 17%;
+    --dashboards-left-pane-default-width: 22%;
+    --dashboards-right-pane-default-width: 22%;
+    --alerts-left-pane-default-width: 22%;
+    --dialog-header-and-footer-background-color: rgba(230, 230, 230);
+  
+    font-size: var(--base-font-size);
+  }
+  
