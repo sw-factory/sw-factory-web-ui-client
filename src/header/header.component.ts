@@ -1,7 +1,7 @@
-import { Component } from "@angular/core";
+import { Component } from '@angular/core';
 
 @Component({
-  selector: "header-view",
+  selector: 'app-header',
   template: `
     <header class="header">
       <img height="100%" src="../assets/images/sw_factory_logo.png" />
@@ -17,4 +17,4 @@ import { Component } from "@angular/core";
     </style>
   `
 })
-export class HeaderViewComponent {}
+export class HeaderComponent {}

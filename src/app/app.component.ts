@@ -1,13 +1,14 @@
-import { Component } from "@angular/core";
+import { Component } from '@angular/core';
 
 @Component({
-  selector: "app-root",
+  selector: 'app-root',
   template: `
-  <header-view>
-  <router-outlet></router-outlet>
+    <app-header></app-header>
+    <app-left-navigation-pane></app-left-navigation-pane>
+    <router-outlet></router-outlet>
   `,
   styles: []
 })
 export class AppComponent {
-  title = "swfactory-web-ui-client";
+  title = 'swfactory-web-ui-client';
 }
