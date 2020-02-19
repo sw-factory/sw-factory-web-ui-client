@@ -4,22 +4,36 @@ import { Component } from '@angular/core';
   selector: 'app-left-navigation-pane',
   template: `
     <nav>
-      <img width="45px" src="../assets/images/dashboard.svg" />
-      <img width="45px" src="../assets/images/mywork.svg" />
-      <img width="45px" src="../assets/images/team.svg" />
-      <img width="45px" src="../assets/images/product.svg" />
-      <img height="45px" src="../assets/images/solution.svg" />
-      <img width="45px" src="../assets/images/portfolio.svg" />
-      <img height="45px" src="../assets/images/business.svg" />
+      <div class="item">
+        <img width="45px" src="../assets/images/dashboard.svg" />
+        <div>Dashboard</div>
+      </div>
+      <div class="item">
+        <img width="45px" src="../assets/images/mywork.svg" />
+        <div>My work</div>
+      </div>
+      <div class="item">
+        <img width="45px" src="../assets/images/team.svg" />
+        <div>Team</div>
+      </div>
+      <div class="item">
+        <img width="45px" src="../assets/images/product.svg" />
+        <div>Product</div>
+      </div>
+      <div class="item">
+        <img height="45px" src="../assets/images/solution.svg" />
+        <div>Solution</div>
+      </div>
+      <div class="item">
+        <img width="45px" src="../assets/images/portfolio.svg" />
+        <div>Portfolio</div>
+      </div>
+      <div class="item">
+        <img height="45px" src="../assets/images/business.svg" />
+        <div>Business</div>
+      </div>
     </nav>
-
-    <style>
-      nav {
-        background-color: var(--secondary-brand-color);
-        height: 100vh;
-        width: 50px;
-      }
-    </style>
-  `
+  `,
+  styleUrls: ['./leftnavigationpane.component.scss']
 })
 export class LeftNavigationPaneComponent {}

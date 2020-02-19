@@ -1,14 +1,10 @@
-@import "assets/styles/variables.scss";
+@import 'assets/styles/variables.scss';
 
 body {
-  background-image: radial-gradient(
-    50vw,
-    rgb(245, 245, 245),
-    rgb(255, 255, 255)
-  );
-  font-family: var(--brand-font-family);
+  background-image: radial-gradient(50vw, rgb(205, 205, 205), rgb(255, 255, 255));
+  font-family: var(--primary-font-family);
   font-size: var(--body-font-size);
-  font-weight: var(--brand-font-weight);
+  margin: 0;
   overflow: hidden;
 }
 
