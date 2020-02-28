@@ -5,10 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from '../header/header.component';
 import { LeftNavigationPaneComponent } from 'src/leftnavigationpane/leftnavigationpane.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatIconModule } from '@angular/material/icon';
+import { MatSelectModule } from '@angular/material/select';
 
 @NgModule({
   declarations: [AppComponent, HeaderComponent, LeftNavigationPaneComponent],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, MatIconModule, MatSelectModule],
   providers: [],
   bootstrap: [AppComponent]
 })
