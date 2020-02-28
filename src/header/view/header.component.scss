@@ -1,0 +1,51 @@
+header {
+  align-items: center;
+  background-color: var(--primary-brand-color);
+  color: var(--light-text-color);
+  display: flex;
+  padding-bottom: 4px;
+  padding-left: 7px;
+  padding-top: 6px;
+
+  mat-select {
+    margin-left: 2rem;
+    margin-right: 0.1rem;
+  }
+
+  .add {
+    font-size: 1rem;
+  }
+
+  .account {
+    align-items: center;
+    display: flex;
+    font-size: 1rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+
+    mat-icon {
+      margin-right: 0.3rem;
+    }
+  }
+}
+
+:host ::ng-deep .mat-select-value-text {
+  color: #ffffff;
+  letter-spacing: 0.0001rem;
+}
+
+:host ::ng-deep .organization-path,
+.organization-path {
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+
+:host ::ng-deep .organization,
+.organization {
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+:host ::ng-deep .mat-select-arrow {
+  color: var(--light-text-color);
+}

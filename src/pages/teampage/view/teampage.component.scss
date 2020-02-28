@@ -1,0 +1,23 @@
+.swimLanes {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+
+  .swimLane {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+
+    mat-card {
+      background-color: rgba(230, 230, 230);
+      box-shadow: none !important;
+      width: 100%;
+    }
+  }
+}
+
+:host ::ng-deep mat-tab-header {
+  background-color: white;
+}

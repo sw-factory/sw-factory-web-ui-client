@@ -1,0 +1,21 @@
+nav {
+  align-items: center;
+  background-color: var(--secondary-brand-color);
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 54px);
+  width: 2.5rem;
+
+  .item {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: var(--left-navigation-font-size);
+    font-weight: bold;
+    margin-top: 1.25rem;
+
+    &:first-child {
+      margin-top: 0.8rem;
+    }
+  }
+}
